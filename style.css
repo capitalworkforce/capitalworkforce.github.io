@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #a4c2a5;
+    color: #4a4a48;
+    text-align: center;
+    padding: 1px;
+}
+nav { 
+    background-color: #f1f2eb ;
+    padding: 5px;
+}
+nav ul {
+    justify-content: center;
+    display: flex;
+    padding: 1;
+    gap: 35px;
+    list-style-type: none;
+}
+nav ul li a {
+    color: #4a4a48;
+    text-decoration: none;
+    padding: 10px;
+}
