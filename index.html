@@ -3,6 +3,17 @@
 <head>
     <title>Capitalworkforce</title>
     <link rel="stylesheet" href="style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".cookies1").remove();
+    $(".cookies2").remove();
+    $(".cookies3").remove();
+    $(".cookies4").remove();
+  });
+});
+</script>
 </head>
 <body>
     <header>
@@ -20,6 +31,27 @@
         <li><a href="werken.html">Bij ons werken</a></li>
         </ul>
     </nav>
+    <div class="begin">
+        <div class="cookies1">
+   <h3 id=koekjes><b>Cookies op deze website</b></h3>
+        <p class="langetekst">Om deze website goed te laten functioneren, maken wij gebruik van cookies.</p>
+        <p class="langetekst">Cookies zijn kleine tekstbestanden die op je computer, tablet of smartphone worden opgeslagen wanneer je onze website bezoekt.</p>
+        <p class="langetekst">Deze bestanden helpen ons om de website gebruiksvriendelijk, veilig en goed werkend te houden.</p>
+    </div>
+    <div class="cookies2">
+        <p class="langetekst">Naast de noodzakelijke cookies kunnen wij ook aanvullende cookies gebruiken om inzicht te krijgen in het gebruik van de website.</p>
+        <p class="langetekst">Met deze informatie kunnen wij bijvoorbeeld zien welke pagina’s het meest worden bezocht en waar verbeteringen mogelijk zijn.</p>
+        <p class="langetekst">Deze gegevens worden uitsluitend gebruikt om de prestaties van de website te analyseren en de gebruikerservaring te verbeteren.</p>
+    </div>
+    <div class="cookies3">
+        <p class="langetekst">Je bepaalt zelf of je toestemming geeft voor het gebruik van deze aanvullende cookies.</p>
+        <p class="langetekst">Wanneer je kiest voor <b>Cookies accepteren</b>, worden alle cookies gebruikt.</p>
+        <p class="langetekst">Kies je voor <b>Cookies niet accepteren</b>, dan worden alleen de cookies geplaatst die noodzakelijk zijn voor het correct functioneren van de website.</p>
+    </div>
+    <div class="cookies4">
+                <button>✅ Cookies accepteren</button>         <button>❌ Cookies niet accepteren</button>
+    </div>
+      </div>
     <div class="flexrow">
      <div class="duimpje">
     <img src="duimpje.jpg" alt="Emoij met duimpje">
@@ -47,6 +79,8 @@
     <h3>Ons pand gevstigd in Villapark Vught</h3>
     <h5>Dennenlaan 12, 5263 GZ Vught</h5>
     <h5>Maandag t/m vrijdag, 08:00-17:00 uur</h5>
+    <h5>Druk hier onder voor een route beschrijving naar ons pand</h5>
+    <a id="routebeschrijving" href="https://www.google.com/maps/place/Dennenlaan+12,+5263+GZ+Vught/@51.6499126,5.2649122,17z/data=!3m1!4b1!4m6!3m5!1s0x47c6eeab2ccec9a1:0x3a8408d310248065!8m2!3d51.6499126!4d5.2674871!16s%2Fg%2F11bw4mt_wm?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D">Routebeschrijving</a>
  </div>
     </div>
      <footer>Capital Work Force - Samen werken aan succes.</footer>

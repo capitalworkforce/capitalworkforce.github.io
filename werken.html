@@ -3,6 +3,14 @@
 <head>
     <title>Capitalworkforce</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".werken8").remove();
+  });
+});
+</script>
 </head>
 <body>
     <header>
@@ -69,9 +77,12 @@
         <p class="langetekst">Vul hieronder in waarom u de perfecte kanidaat voor ons bent</p>
         <p class="langetekst">wij zullen zo spoedig mogelijk op u antwoorden nadat u een bericht heeft verzonden</p>
     <form action="contact.html">
-    <p>naam <input type="text"></p>  
+        </div>
+        <div class="werken8">
+    <p>Naam <input type="text"></p>  
     <p>E-mailadres <input type="text"></p>  
     <p>Bericht* <textarea name="Bericht" id=""></textarea></p>
+    <button>Verzend uw bericht</button>
     <p id="ster">*U kunt rechtsonder de berichtbox groter maken aan de hand van de grote van het bericht dat u wil schrijven</p>
     </div>
     </form>
