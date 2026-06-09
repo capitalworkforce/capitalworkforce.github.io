@@ -3,8 +3,16 @@
     <Head>
 <title>Capitalworkforce contact</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $(".werken8").remove();
+  });
+});
+</script>
     </Head>
-<body>
+<body class="contact1">
     <header>
     <h1>Over ons en contact</h1>
     <p>Hier vind u alle informatie die u nodig heeft om ons te contacteren, en natuurlijk alle verdere informatie over ons</p>
@@ -19,28 +27,60 @@
         <li><a href="werken.html">Bij ons werken</a></li>
         </ul>
     </nav>
-    <div class="box">
+    <section>
+        <main>
+            <div class="flexrow2">
+    <div class="werken1">
         <h1>Over ons</h1>
         <p>Bij capitalworkforce geloven wij in kwaliteit en betrouwbarheid. Wij helpen</p>
         <p> bedrijven bij het vinden van gemotiveerde medewerkers en zorgen voor een</p>
-        <p>professionele match tussen werkgever en werknemer. Onze persoonlijke aanpak</p>
-        <p>staat daarbij centraal.</p>
+        <p class="langetekst">match tussen werkgever en werknemer. Onze persoonlijke aanpak</p>
+        <p class="langetekst">staat daarbij centraal.</p>
+        <p>voor onze reviews verwijzen we u naar de blok hiernaast</p>
+        <p> via deze link naar onze reviews op <a id="routebeschrijving" href="https://www.indeed.com/cmp/Capital-Workforce/reviews">Indeed</a></p>
      </div>
-     <div class="box">
+     <div class="werken1">
+        <H1>Onze reviews</H1>
+        <h3>Jolijn ★★★★★</h5>
+            <p class="langetekst">Ik had op korte termijn een mederwerker nodig voor mijn horeca zaak</p>
+            <p class="langetekst">dat hebben ze bij capital work force als de beste geregeld</p>
+        <h3>Bo H ★★★★☆</h3>
+            <p class="langetekst">Ik had personeel nodig voor een exclusieve evenement bij een privé zwembad</p>
+            <p class="langetekst">Erg vriendelijk personeel en de afdeling logistiek had ook nog perfecte zwemkleding geleverd!</p>
+     </div>
+     <div class="werken1">
         <h1>Contact opnemen</h1>
-        <p>Heeft u vragen over onze diensten of bent u opzoek naar gekwalificeerd personeel?</p>
-        <p>Neem gerust contact met ons op. Ons teams staat klaar om u te helpen en samen de beste oplossing te zoeken</p>
+        <p class="langetekst"> Heeft u vragen over onze diensten of bent u opzoek naar gekwalificeerd personeel?</p>
+        <p class="langetekst"> Neem gerust contact met ons op. Ons teams staat klaar om u te helpen en samen de beste oplossing te zoeken</p>
         <p>Telefoon: +31 6 12345678</p>
+        <p>KVK-18356967</p>
         <p>E-mail: info@capitalworkforce.nl</p>
         <p>Adres: Dennenlaan 12, 5263 GZ Vught</p>
         <p>Openingstijden: Maandag t/m vrijdag, 08:00-17:00 uur</p>
-
+          <p>Druk hier onder voor een route beschrijving naar ons pand</p>
+    <a id="routebeschrijving" href="https://www.google.com/maps/place/Dennenlaan+12,+5263+GZ+Vught/@51.6499126,5.2649122,17z/data=!3m1!4b1!4m6!3m5!1s0x47c6eeab2ccec9a1:0x3a8408d310248065!8m2!3d51.6499126!4d5.2674871!16s%2Fg%2F11bw4mt_wm?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D">Routebeschrijving</a>
+ </div>
+        </div>
+</main>
+<aside>
     </div>
+    <div class="werken7">
+        <p class="langetekst">Of u kan ook contact op nemen met ons via dit contactsformulier</p>
+        <p class="langetekst">We zullen zo snel mogelijk contact met u opnemen</p>
+    </div>
+    <div class="werken8">
     <form action="contact.html">
     <p>naam <input type="text"></p>  
+    <p>Telefoonnummer* <input type="text"></p>  
     <p>E-mailadres <input type="text"></p>  
-    <p>Bericht <textarea name="Bericht" id=""></textarea></p>  
+    <p>Bericht** <textarea rows="3,5"="Bericht" id=""></textarea></p>  
+    <button>Verzend uw bericht</button>
+     <p class="ster">*Telefoonnummer is niet verplicht, maar als ingevuld nemen we zsm contact met u op via de telefoon</p>
+    <p class="ster">**U kunt rechtsonder de berichtbox groter maken aan de hand van de grote van het bericht dat u wil schrijven</p>
     </form>
+    </div>
+    </aside>
+    </section>
      <footer>Capital Work Force - Samen werken aan succes.</footer>
      <footer>CAPITAL WORK FORCE 2026 © </footer>
     </body>
