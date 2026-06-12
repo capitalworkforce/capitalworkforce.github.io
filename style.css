@@ -1,69 +1,68 @@
-body {
+body {      /*body van site met margin 0 en achtergrond*/
     margin: 0;
     background-color: #d8dad3;
 }
-.contact1 {
+.contact1 {    /*body van contact met background image met margin 0*/
     background-image: url(fotogebouw.png);
     margin: 0;
-    background-color: #d8dad3;
 }
-header {
+header {      /*header met background color en kleur van tekst padding 1px in de box met text in het center*/
     background-color: #566246;
     color: #a4c2a5;
     text-align: center;
     padding: 1px;
 }
-nav { 
+nav { /*kleur en padding van de navigatie balk*/
     background-color: #f1f2eb ;
     padding: 5px;
 }
-nav ul {
+nav ul {  /*de kleuren en boxen en de locatie van ul in de nav zonder . ervoor*/
     justify-content: center;
     display: flex;
     padding: 1;
     gap: 35px;
     list-style-type: none;
 }
-nav ul li a {
+nav ul li a {  /*de tekst van de nav ul*/
     color: #4a4a48;
     text-decoration: none;
     padding: 10px;
 }
-    nav ul li a:hover {
+    nav ul li a:hover {   /*als je met je muis er over heen gaat dat de ul in de nav deze background kleur geeft*/
         background-color: #a4c2a5;
     }
-    #klik {
+    #klik {   /*zodra je op een ul hebt gelikt en op die pagina zit zal deze ul deze kleur achtergrond hebben*/
       	background-color: #566246 ;
         color: #a4c2a5;
       }
-.begin{
+.begin{   /*box begin met wijdte van 100% met 1px zwarte border en achtergrond kleur*/
     width: 100%;
     border: 1px solid black;
     background-color: #a4c2a5;
 }
-.cookies1{
+.cookies1{  /*box van cookies met tekst in het midden met grote grote van de letter en andere lettertype met een margin*/
     text-align: center;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 1%;
 }
-.cookies1 img{
+.cookies1 img{ /*foto met breedte 12,5% en border van solid black*/
     border: solid black;
     width: 12.5%;
 }
-.cookies2{
+.cookies2{ /*box van cookies met tekst in het midden met grote grote van de letter en andere lettertype met een margin*/
     text-align: center;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 2.5%;
 }
-.cookies3{
+.cookies3{ /*box van cookies met tekst in het midden met grote grote van de letter en andere lettertype met een margin*/
     text-align: center;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
     margin: 2.5%;
 }
-.cookies4{
+.cookies4{ /*box van cookies met tekst in het midden met grote grote van de letter en andere lettertype met een margin*/
     text-align: center;
     font-size: 150%;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,9 +82,6 @@ nav ul li a {
 }
 .home img {
     width: 100%;
-}
-#routebeschrijving {
-    font-family: cursive;
 }
 .main{
     text-align: center;
@@ -113,7 +109,7 @@ nav ul li a {
     background-color: #a4c2a5;
 }
 .duimpje img {
-    width: 100;
+    width: 100%;
 }
 section {
     display:flex;
@@ -175,7 +171,6 @@ font-size: 125%;
 .personeel img {
       border-radius: 50%;
       width: 35%;
-      height: 35%;
 }
 .personeel2 {
     justify-content: center;
@@ -189,7 +184,6 @@ font-size: 125%;
 .personeel2 img{
     border-radius: 50%;
     width: 45%;
-    height: 30%;
 
 }
 .personeel3 {
@@ -204,7 +198,6 @@ font-size: 125%;
 .personeel3 img{
     border-radius: 50%;
     width: 40%;
-    height: 40%;
 }
 .verwijzing{
     text-align: center;
@@ -219,6 +212,12 @@ font-size: 125%;
         position: fixed;
         bottom: 0;
         width: 100%;
+}
+.linkje{
+    color: #000000;
+    text-decoration: none;
+    font-family:cursive;
+    font-weight: 550;
 }
 footer {
         background-color: #566246;
