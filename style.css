@@ -69,38 +69,38 @@ nav ul li a {  /*de tekst van de nav ul*/
     margin: 2.5%;
     justify-content: space-between;
 }
-.flexrow {
+.flexrow {  /*flexrow met spacew around de boxen een een display flex*/
     justify-content: space-around;
     display:flex;
 }
-.home {
+.home { /*box met tekst in de center met een breedte van 20% border 1 pixel van zwart andere lettertype en achtergrond kleur*/
     text-align: center;
     width: 20%;
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid black;
     background-color: #a4c2a5;
 }
-.home img {
+.home img {  /*groote van foto in box 100% van de box*/
     width: 100%;
 }
-.main{
+.main{  /*box met tekst in het midden breedete van 40% border van 1 px zwart en achtergrond kleur*/
     text-align: center;
     width: 40%;
     border: 1px solid black;
     background-color: #a4c2a5;
 }
-#hfd {
+#hfd { /*tekst met een ander letter type*/
     font-family: Arial, Helvetica, sans-serif;
 }
-.langetekst {
+.langetekst {  /*class van tekst met andere lettertype en margin van 5px*/
     margin:5px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.Kortetekst{
+.Kortetekst{  /*een dik gedrukte letters met andere lettertype*/
     font-family:cursive;
     font-weight: 550;
 }
-.duimpje {
+.duimpje {  /*box met text in de centre met een breedte van 19.321% 23% van de top met een border van 1px zwart en achtergrondkleur en lettertype*/
     text-align: center;
     width: 19.321%;
     top: 23%;
@@ -108,28 +108,28 @@ nav ul li a {  /*de tekst van de nav ul*/
     border: 1px solid black;
     background-color: #a4c2a5;
 }
-.duimpje img {
+.duimpje img { /*foto met 100% breedte van de box*/
     width: 100%;
 }
-section {
+section { /*verdeelte de secties met ruimte er tussen en een display flex*/
     display:flex;
     justify-content: space-between;
 }
-main {
+main {  /*main gedeelte van de sectie met een breedte van 70% en een 20px padding*/
     width: 70%;
     padding: 20px;
 }
-aside{
-    width: 25%;
+aside{ /*rechter kolom van de sectie met een breedte van 25% en een padding van 20px met een baclground color*/
+    width: 25%; 
     padding: 20px;
     background-color:#a4c2a5;
 }
-.flexrow2 {
+.flexrow2 { /*flexrow met de content is de midden een flex displat een een flex wrap*/
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
 }
-.werken1 {
+.werken1 { /*box met een breedte van 35% met de tekst in de center andere lettertype border van 1px andere achtergrond en margin van 20px*/
     text-align: center;
     width: 35%;
     font-family: Arial, Helvetica, sans-serif;
@@ -139,18 +139,18 @@ aside{
     margin: 20px;
 }
 
-.werken7 {
+.werken7 { /*box met een 125% grote van letters met de tekst in de center*/
 text-align: center;
 font-size: 125%;
 }
-.werken8 {
+.werken8 { /*box waarin de form staat met de tekst in de center een 125% letter type grote*/
 text-align: center;
 font-size: 125%;
 }
-.ster {
+.ster {  /*grote van letters 53%*/
     font-size: 53%;
 }
-.diensten1 {
+.diensten1 { /*box van 72.4% groote met tekst in de center andere lettertype 1px border zwart andere achtergrond kleur en een margin van 20px*/
     width: 72.4%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -158,7 +158,7 @@ font-size: 125%;
     background-color: #a4c2a5;
     margin : 20px;   
 }
-.personeel {
+.personeel { /*tekst in de midden met een breedte van 30% andere lettertype border zwart 1 px padding beneden 4% in de box margin van 20px en justify content 20px*/
     justify-content: center;
     text-align: center;
     width: 30%;
@@ -168,11 +168,11 @@ font-size: 125%;
     margin: 20px;
     padding-bottom: 4%
 }
-.personeel img {
+.personeel img { /*foto word rond met een breedte van 35% van de box*/
       border-radius: 50%;
       width: 35%;
 }
-.personeel2 {
+.personeel2 { /*tekst in de midden met een breedte van 30% andere lettertype border zwart 1 px margin van 20px en justify content 20px*/
     justify-content: center;
     text-align: center;
     width: 30%;
@@ -181,12 +181,12 @@ font-size: 125%;
     background-color: #a4c2a5;
     margin: 20px;
 }
-.personeel2 img{
+.personeel2 img{ /*foto word rond breedte van 45%*/
     border-radius: 50%;
     width: 45%;
 
 }
-.personeel3 {
+.personeel3 { /*tekst in de midden met een breedte van 30% andere lettertype border zwart 1 px padding beneden 4% in de box margin van 20px en justify content 20px*/
     text-align: center;
     width: 30%;
     font-family: Arial, Helvetica, sans-serif;
@@ -195,15 +195,15 @@ font-size: 125%;
     margin: 20px;
     padding-bottom: 4%;
 }
-.personeel3 img{
+.personeel3 img{ /*foto word rond breedte van 40%*/
     border-radius: 50%;
     width: 40%;
 }
-.verwijzing{
+.verwijzing{ /*tekst gaat in het midden en padding boven van 3%*/
     text-align: center;
     padding-top: 3%;
 }
-.voet{
+.voet{ /*achtergrond kleur anders teskt kleur anders tekst in het midden van een groote van 15px position van de footer is fixed beneden op 100% breedte van de pagina*/
         background-color: #566246;
         color:#a4c2a5;
         text-align: center;
@@ -213,13 +213,13 @@ font-size: 125%;
         bottom: 0;
         width: 100%;
 }
-.linkje{
+.linkje{ /*tekstkleur zwart zonder streep er onder andere lettertype en dikgedrukt*/
     color: #000000;
     text-decoration: none;
     font-family:cursive;
     font-weight: 550;
 }
-footer {
+footer { /*achtergrond kleur andere letterkleur tekst in het midden lettergrote 15px en een padding van 5px*/
         background-color: #566246;
         color:#a4c2a5;
         text-align: center;
